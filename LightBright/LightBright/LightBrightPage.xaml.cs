@@ -22,7 +22,6 @@ namespace LightBright
             public Color color;
         };
         List<UndoInfo> undoList;
-
         // colors to assign when selector button pressed
         Color[] palletteAColors = {Color.White, Color.Black, Color.Red, Color.Orange,
                            Color.Yellow, Color.Green, Color.Cyan, Color.Blue};
@@ -62,11 +61,11 @@ namespace LightBright
                 };
                 if (Device.RuntimePlatform == Device.Android)
                     button.MinimumWidthRequest = 4;  //  hack for making it work on my Moto G7
-                    button.Clicked //  add the Clicked handler to the button
-                /*  add code here      */   //  add the button to selectorButtons
-                /*  add code here      */   //  add the button to palletteA
+                button.Clicked += Button_Clicked;  //  add the Clicked handler to the button               
+                Button[] selectorButtons = new Button[index]; //  add the button to selectorButtons
+                button.Add(palletteAColors[]);   //  add the button to palletteA
             }
-
+            
             //  This is an example of technical debt - these should be pulled out as a method.
             for (int index = 0; index < palletteBColors.Length; index++)
             {
@@ -123,12 +122,12 @@ namespace LightBright
             }
             undoList.Clear();    //  clear undoList
         }
-
+       
         void InitBoxes()
         {
 
-            /*  add code here      */    //  Init undoList
-            /*  add code here      */    //  Init boxes
+            undoList = new List<Undo[]>();    //  Init undoList
+            boxes = new List<BoxView>();    //  Init boxes
             for(int row = 0; row < rows; row++)
             {
                 for(int col = 0; col < cols; col++)
@@ -139,8 +138,12 @@ namespace LightBright
                         HorizontalOptions = LayoutOptions.Start,
                         Color = borderColor,
                     };
-                    /*  add code here - need three lines to create TapGestureRecognizer entry     */
-                    /*  add code here      */  //  Add the current box to the boxes list
+                    var tapGestureRecognizer = new TapGestureRecognizer();
+                    tapGestureRecognizer.Tapped += (s, e) => {
+                        OnBoxViewTapped(s, e);
+                    };
+                    mainGrid.GestureRecognizers.Add(tapGestureRecognizer);
+                    boxes.Add(InitBoxes   //  Add the current box to the boxes list
                     /*  add code here      */  //  Add the current box to the mainGrid
                 }
             }
@@ -165,8 +168,12 @@ namespace LightBright
             //  undo last color set
             UndoInfo info = undoList.Last();
             info.box.Color = info.color;  // restore previous color
-            /*  add code here      */     // remove this entry from list
-            /*  add code here      */     //  if undoList is empty, disable undoButton
+            if(
+                // remove this entry from list
+            if (undoList.Count == 0)
+            {
+                undoButton.IsEnabled = false;
+            }//  if undoList is empty, disable undoButton
         }
     }
 }

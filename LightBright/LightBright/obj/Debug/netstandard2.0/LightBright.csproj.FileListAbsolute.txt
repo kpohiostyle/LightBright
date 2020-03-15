@@ -1,0 +1,13 @@
+C:\Users\Family\Source\Repos\LightBright\LightBright\LightBright\bin\Debug\netstandard2.0\LightBright.deps.json
+C:\Users\Family\Source\Repos\LightBright\LightBright\LightBright\bin\Debug\netstandard2.0\LightBright.dll
+C:\Users\Family\Source\Repos\LightBright\LightBright\LightBright\bin\Debug\netstandard2.0\ref\LightBright.dll
+C:\Users\Family\Source\Repos\LightBright\LightBright\LightBright\bin\Debug\netstandard2.0\LightBright.pdb
+C:\Users\Family\Source\Repos\LightBright\LightBright\LightBright\obj\Debug\netstandard2.0\LightBright.csprojAssemblyReference.cache
+C:\Users\Family\Source\Repos\LightBright\LightBright\LightBright\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Family\Source\Repos\LightBright\LightBright\LightBright\obj\Debug\netstandard2.0\LightBrightPage.xaml.g.cs
+C:\Users\Family\Source\Repos\LightBright\LightBright\LightBright\obj\Debug\netstandard2.0\LightBright.AssemblyInfoInputs.cache
+C:\Users\Family\Source\Repos\LightBright\LightBright\LightBright\obj\Debug\netstandard2.0\LightBright.AssemblyInfo.cs
+C:\Users\Family\Source\Repos\LightBright\LightBright\LightBright\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Family\Source\Repos\LightBright\LightBright\LightBright\obj\Debug\netstandard2.0\LightBright.dll
+C:\Users\Family\Source\Repos\LightBright\LightBright\LightBright\obj\Debug\netstandard2.0\ref\LightBright.dll
+C:\Users\Family\Source\Repos\LightBright\LightBright\LightBright\obj\Debug\netstandard2.0\LightBright.pdb

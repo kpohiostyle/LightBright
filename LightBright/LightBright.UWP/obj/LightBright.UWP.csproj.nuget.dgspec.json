@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\xam\\week4\\LightBright\\LightBright\\LightBright.UWP\\LightBright.UWP.csproj": {}
+    "C:\\Users\\Family\\Source\\Repos\\LightBright\\LightBright\\LightBright.UWP\\LightBright.UWP.csproj": {}
   },
   "projects": {
-    "C:\\xam\\week4\\LightBright\\LightBright\\LightBright.UWP\\LightBright.UWP.csproj": {
+    "C:\\Users\\Family\\Source\\Repos\\LightBright\\LightBright\\LightBright.UWP\\LightBright.UWP.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\xam\\week4\\LightBright\\LightBright\\LightBright.UWP\\LightBright.UWP.csproj",
+        "projectUniqueName": "C:\\Users\\Family\\Source\\Repos\\LightBright\\LightBright\\LightBright.UWP\\LightBright.UWP.csproj",
         "projectName": "LightBright.UWP",
-        "projectPath": "C:\\xam\\week4\\LightBright\\LightBright\\LightBright.UWP\\LightBright.UWP.csproj",
-        "packagesPath": "C:\\Users\\kpowell\\.nuget\\packages\\",
-        "outputPath": "C:\\xam\\week4\\LightBright\\LightBright\\LightBright.UWP\\obj\\",
+        "projectPath": "C:\\Users\\Family\\Source\\Repos\\LightBright\\LightBright\\LightBright.UWP\\LightBright.UWP.csproj",
+        "packagesPath": "C:\\Users\\Family\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Family\\Source\\Repos\\LightBright\\LightBright\\LightBright.UWP\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -19,7 +19,7 @@
           "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\kpowell\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Family\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -33,8 +33,8 @@
         "frameworks": {
           "uap10.0.16299": {
             "projectReferences": {
-              "C:\\xam\\week4\\LightBright\\LightBright\\LightBright\\LightBright.csproj": {
-                "projectPath": "C:\\xam\\week4\\LightBright\\LightBright\\LightBright\\LightBright.csproj"
+              "C:\\Users\\Family\\Source\\Repos\\LightBright\\LightBright\\LightBright\\LightBright.csproj": {
+                "projectPath": "C:\\Users\\Family\\Source\\Repos\\LightBright\\LightBright\\LightBright\\LightBright.csproj"
               }
             }
           }
@@ -87,20 +87,20 @@
         }
       }
     },
-    "C:\\xam\\week4\\LightBright\\LightBright\\LightBright\\LightBright.csproj": {
+    "C:\\Users\\Family\\Source\\Repos\\LightBright\\LightBright\\LightBright\\LightBright.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\xam\\week4\\LightBright\\LightBright\\LightBright\\LightBright.csproj",
+        "projectUniqueName": "C:\\Users\\Family\\Source\\Repos\\LightBright\\LightBright\\LightBright\\LightBright.csproj",
         "projectName": "LightBright",
-        "projectPath": "C:\\xam\\week4\\LightBright\\LightBright\\LightBright\\LightBright.csproj",
-        "packagesPath": "C:\\Users\\kpowell\\.nuget\\packages\\",
-        "outputPath": "C:\\xam\\week4\\LightBright\\LightBright\\LightBright\\obj\\",
+        "projectPath": "C:\\Users\\Family\\Source\\Repos\\LightBright\\LightBright\\LightBright\\LightBright.csproj",
+        "packagesPath": "C:\\Users\\Family\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Family\\Source\\Repos\\LightBright\\LightBright\\LightBright\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\kpowell\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Family\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
